@@ -1,0 +1,134 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/kebab1"/>
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/title"
+        android:text="Welcome to the land of KEBAB!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/hours"
+        android:text="Opening hours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:layout_below="@id/title"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/mon"
+        android:text="Monday: 06.00 - 17.00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:layout_below="@id/hours"
+        android:layout_margin="5dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tue"
+        android:text="Tuesday: 06.00 - 17.00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:layout_below="@id/mon"
+        android:layout_margin="5dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/wed"
+        android:text="Wednesday: 06.00 - 17.00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:layout_below="@id/tue"
+        android:layout_margin="5dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/thu"
+        android:text="Thursday: 06.00 - 17.00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:layout_below="@id/wed"
+        android:layout_margin="5dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/fri"
+        android:text="Friday: 06.00 - 03.00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:layout_below="@id/thu"
+        android:layout_margin="5dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/sat"
+        android:text="Saturday: 10.00 - 03.00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:layout_below="@id/fri"
+        android:layout_margin="5dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/sun"
+        android:text="Sunday: 10.00 - 22.00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:layout_below="@id/sat"
+        android:layout_margin="5dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/address"
+        android:text="Kebab Street 1337"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp" />
+
+</RelativeLayout>
